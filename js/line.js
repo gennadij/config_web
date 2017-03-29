@@ -1,6 +1,25 @@
 
 document.addEventListener('DOMContentLoaded', start, false);
 
+/*
+ * Docu
+ * http://zulfait.blogspot.de/2013/07/jquery-connect.html
+ * https://gist.github.com/xtrasmal/11157312
+ * http://jsfiddle.net/sbaBG/1/
+ * http://stackoverflow.com/questions/19382872/how-to-connect-html-divs-with-lines
+ * http://stackoverflow.com/questions/6278152/drawing-a-line-between-two-draggable-divs
+ * https://jsplumbtoolkit.com/license#toolkit
+ * https://d3js.org/
+ * http://stackoverflow.com/questions/1104295/jquery-use-canvas-to-draw-lines-between-divs?rq=1
+ * https://gist.github.com/alojzije/11127839
+ * https://codepen.io/alojzije/pen/ndfrI
+ * http://www.jqueryscript.net/other/jQuery-Plugin-To-Connect-Two-Html-Elements-with-A-Line.html
+ * http://www.jqueryscript.net/other/jQuery-Plugin-To-Connect-HTML-Elements-with-Lines-HTML-SVG-Connect.html
+ * http://kennykee.com/128/drawing-a-line-between-two-draggable-divs/
+ */
+
+
+
 function start() {
 	adjustLine(
 			  document.getElementById('div1'), 

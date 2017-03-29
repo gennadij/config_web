@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery.html-svg-connect.js" type="text/javascript"></script>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript">
+
+$("#svgContainer").HTMLSVGconnect({
+		  paths: [
+		    { start: "#div1", end: "#div2"}
+		  ]
+		});
+</script>
+
+</head>
+<body>
+	<div id="svgContainer"></div>
+	<div id="div1" class="mydiv"></div>
+  	<div id="div2" class="mydiv"></div>
+	
+
+</body>
+</html>

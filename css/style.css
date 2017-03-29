@@ -1,10 +1,83 @@
 @CHARSET "ISO-8859-1";
 
-body {
-	background-color: lightblue;
+
+/*JQuery connct to div with one line*/
+#svgContainer {
+  z-index: -10;
+  position: absolute;
+  background-color: gray;
+  opacity: 0.5;
 }
 
-#peronely {
+body {
+  background-color: gray;
+}
+/*div {
+  opacity: 0.6;
+}*/
+#outer {
+  margin: 20px 20px 20px 20px;
+  width: 500px;
+}
+
+#ebene1 {
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  top: 500px;
+  bottom: 20px;
+  left: 20px;
+  right: 500px;
+}
+.person {
+  width: 80px;
+  height: 80px;
+  border-style: solid;
+  border-width: medium;
+  margin: 10px 10px 10px 10px;
+}
+
+#person_1 {
+  position: absolute;
+  top: 10px;
+  left: 100px
+  
+  /*bottom: 10px*/
+}
+
+#person_2 {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  bottom: 10px
+}
+
+#person_3 {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  bottom: 10px;
+}
+/*#red {
+  width: 5em;
+  height: 5em;
+  border-style: solid;
+  border-width: medium;
+}
+#aqua {
+  width: 5em;
+  height: 5em;
+  border-style: solid;
+  border-width: medium;
+}*/
+
+
+
+
+/*body {
+	background-color: lightblue;
+}*/
+
+/*#peronely {
 	background-color: green;
 	height: 300px;
 	position: static;
@@ -45,7 +118,7 @@ body {
     left: 30px;
     right: 30px;
     border: 3px solid #73AD21;
-}
+}*/
 
 
 

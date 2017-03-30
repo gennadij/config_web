@@ -57,6 +57,12 @@ body {
   top: 200px;
   bottom: 10px;
 }
+
+#person_4 {
+  position: absolute;
+  left: 300px;
+  top: 10px;
+}
 /*#red {
   width: 5em;
   height: 5em;

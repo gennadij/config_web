@@ -15,15 +15,43 @@
 </head>
 
 <body>
-	<div id="svgContainer"> </div>
-	<div class="jquery-script-clear"> </div>
-  <div id="outer">
-  <h1 style="color:#fff;">Stammbaum Heimann</h1>
-  <div id="ebene1" class="ebene">
-    <div id="person_1" class="person"> Gennadi Heimann</div>
+  <div id="ebene1" class="ebene"> Ebene 1 </div>
+  <div id="ebene2" class="ebene"> Ebene 2 </div>
+  <div id="ebene3" class="ebene"> Ebene 3 </div>
+  <div id="ebene4" class="ebene"> Ebene 4 </div>
+  <div id="ebene5" class="ebene"> Ebene 5 
+    <div id="svgContainer"> </div>
+  	<div id="person_1" class="person"> 
+    	<table>
+	    	<tbody>
+	    		<tr>
+	    			<td rowspan="4">
+						<img src="img/images.jpg" alt="Img" style="width:60px;height:60px;"> 
+					</td>
+	    			<td>Vorname/имя:</td>
+	    			<td>Gennadi</td>
+	    		</tr>
+	    		<tr>
+	    			<td>Geburtsname:</td>
+	    			<td>Heimann</td>
+	    		</tr>
+	    		<tr>
+	    			<td>Geburtsdatum:</td>
+	    			<td>17.09.1981</td>
+	    		</tr>
+	    	</tbody> 
+    	</table>
+    	<div id="male">
+    		<img src="img/Male-Symbol.png" alt="Img" style="width:10px;height:10px;">
+    	</div>
+    </div>
     <div id="person_2" class="person"> Artiom Heimann</div>
     <div id="person_3" class="person"> Aljona Heimann</div>
-    <div id="person_4" class="person"> Ludmila Heimann</div>
+    <div id="person_4" class="person"> Ludmila Heimann
+		<div id="female">
+    		<img src="img/Female_symbol.png" alt="Img" style="width:10px;height:15px;">
+    	</div>
+    </div>
   </div>
 </body>
 </html>
